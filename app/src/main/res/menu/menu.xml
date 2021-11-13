@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="计算器" android:id="@+id/computer"></item>
+    <item android:title = "单位/进制换算" android:id="@+id/numberConversion"></item>
+</menu>

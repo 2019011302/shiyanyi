@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lenght">
+        <item>长度单位</item>
+        <item>面积单位</item>
+        <item>体积单位</item>
+        <item>重量单位</item>
+        <item>进制换算</item>
+    </string-array>
+</resources>

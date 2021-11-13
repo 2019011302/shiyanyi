@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:id="@+id/editText_1"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:id="@+id/editText_2"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:columnCount="8"
+        android:rowCount="5"
+        >
+        <Button style="@style/size"
+            android:id = "@+id/btn_pai"
+            android:text="π"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_l"
+            android:text="("
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_r"
+            android:text=")"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_ln"
+            android:text="ln"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_ac"
+            android:text="清空"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_c"
+            android:text="清除"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_back"
+            android:text="竖屏"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_div"
+            android:text="/"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_reciprocal"
+            android:text="1/x"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_sqr"
+            android:text="x^2"
+            />
+        <Button style="@style/size"
+            android:id="@+id/btn_cube"
+            android:text="x^3"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_x_power_of_y"
+            android:text="y^x"
+            />
+
+        <Button style="@style/size"
+            android:id = "@+id/btn_1"
+            android:text="1"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_2"
+            android:text="2"
+            />
+
+        <Button style="@style/size"
+            android:id="@+id/btn_3"
+            android:text="3" />
+        <Button style="@style/size"
+            android:id = "@+id/btn_mul"
+            android:text="*"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_factorial"
+            android:text="x!"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_square_root"
+            android:text="√"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_x_root"
+            android:text="x√y"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_lg"
+            android:text="lg"
+            />
+
+        <Button style="@style/size"
+            android:id = "@+id/btn_4"
+            android:text="4"
+            />
+        <Button style="@style/size"
+
+            android:id = "@+id/btn_5"
+            android:text="5"
+            />
+        <Button style="@style/size"
+
+            android:id = "@+id/btn_6"
+            android:text="6"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_sub"
+            android:text="-"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_sin"
+            android:text="sin"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_cos"
+            android:text="cos"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_tan"
+            android:text="tan"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_log2"
+            android:text="log2"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_7"
+            android:text="7"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_8"
+            android:text="8"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_9"
+            android:text="9"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_add"
+            android:text="+"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_arcsinx"
+            android:text="arcsin"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_arccos"
+            android:text="arccos"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_arctan"
+            android:text="arctan"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_exponent"
+            android:text="2^x"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_per"
+            android:text="%"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_0"
+            android:text="0"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_dot"
+            android:text="."
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_equ"
+            android:text="="
+            />
+    </GridLayout>
+</LinearLayout>
+

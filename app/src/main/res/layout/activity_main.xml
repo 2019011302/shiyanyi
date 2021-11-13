@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="right"
+        android:id="@+id/editText_1"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="right"
+        android:id="@+id/editText_2"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        android:columnCount="4"
+        android:rowCount="5"
+        >
+        <Button style="@style/size"
+            android:id = "@+id/btn_ac"
+            android:layout_height="80dp"
+            android:text="清空"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_c"
+            android:layout_height="80dp"
+            android:text="清除"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_tran"
+            android:layout_height="80dp"
+            android:text="横屏"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_div"
+            android:layout_height="80dp"
+            android:text="/"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_1"
+            android:layout_height="80dp"
+            android:text="1"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_2"
+            android:layout_height="80dp"
+            android:text="2"
+            />
+
+        <Button style="@style/size"
+            android:id="@+id/btn_3"
+            android:layout_height="80dp"
+            android:text="3" />
+        <Button style="@style/size"
+            android:id = "@+id/btn_mul"
+            android:layout_height="80dp"
+            android:text="*"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_4"
+            android:layout_height="80dp"
+            android:text="4"
+            />
+        <Button style="@style/size"
+            android:layout_height="80dp"
+            android:id = "@+id/btn_5"
+            android:text="5"
+            />
+        <Button style="@style/size"
+            android:layout_height="80dp"
+            android:id = "@+id/btn_6"
+            android:text="6"
+            />
+        <Button style="@style/size"
+            android:layout_height="80dp"
+            android:id = "@+id/btn_sub"
+            android:text="-"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_7"
+            android:layout_height="80dp"
+            android:text="7"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_8"
+            android:layout_height="80dp"
+            android:text="8"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_9"
+            android:layout_height="80dp"
+            android:text="9"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_add"
+            android:layout_height="80dp"
+            android:text="+"
+            />
+        <Button style="@style/size"
+            android:layout_height="80dp"
+            android:id = "@+id/btn_per"
+            android:text="%"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_0"
+            android:layout_height="80dp"
+            android:text="0"
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_dot"
+            android:layout_height="80dp"
+            android:text="."
+            />
+        <Button style="@style/size"
+            android:id = "@+id/btn_equ"
+            android:layout_height="80dp"
+            android:text="="
+            />
+    </GridLayout>
+</LinearLayout>
+
